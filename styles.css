@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;  /* Ensure the content is centered vertically */
+    margin: 0;  /* Remove default body margin */
+    background-image: url('jijo.jpg'); /* Change the image name accordingly */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#stand-button {
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#stand-info {
+    margin-top: 30px;
+    font-size: 24px;
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background */
+    padding: 10px; /* Add padding to improve readability */
+}
